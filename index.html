@@ -2,49 +2,115 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>Pontus Abrahamsson</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/index.js" defer></script>
+    <script src="/assets/confetti.js" defer></script>
   </head>
   <body>
-    <main>
-      <h1>Pontus Abrahamsson</h1>
-      <article>
-        <h2>Projects</h2>
-        <p>Feel free to explore my projects by clicking the links.</p>
-        <section>
-          <h2>Valorant</h2>
+    <main id="cv-layout">
+      <section id="grid-item-left">
+        <div id="left-photo-wrapper">
+          <img
+            src="/assets/photos/github-modified.png"
+            id="left-photo"
+            alt="photo of a person on white background" />
+        </div>
+        <h1>Pontus Abrahamsson</h1>
+        <h2>javascript developer</h2>
+        <p>Pontus Abrahamsson, 31 år från Vänersborg</p>
+        <p>
+          Som webbutvecklingsstudent, tar jag nu sikte på
+          min andra och sista praktik inför min kommande
+          examen. Jag söker en möjlighet att fördjupa mina
+          kunskaper. Alltid ödmjuk samt redo att lära och
+          bidra på bästa sätt
+        </p>
+        <h3>Kompentenser</h3>
+        <ul>
+          <li>Git & GitHub</li>
+          <li>Javascript</li>
+          <li>Node</li>
+          <li>Vue</li>
+          <li>React</li>
+          <li>GraphQL</li>
+          <li>SQL</li>
+          <li>html</li>
+          <li>NoSQL</li>
+          <li>css</li>
+        </ul>
+
+        <h3>Kontaktuppgifter</h3>
+        <p>pontus.abrahamsson@iths.se</p>
+      </section>
+      <section id="grid-item-right">
+        <section id="education">
+          <h1>Utbildning</h1>
+          <h2>JavaScriptutvecklare 2022-2024</h2>
+          <p>400 YH-poäng</p>
           <p>
-            This is a valorant fan page site built with with vue. This is not
-            yet fully responsive
+            Under min tid i JavaScript-utvecklarutbildningen
+            har jag fördjupat mig i
+            webbprogrammeringsspråket JavaScript och dess
+            tillhörande verktyg. Jag har även fått
+            möjligheten att skapa applikationer med en
+            gemensam kodbas som kan distribueras på både
+            Android- och iOS-plattformarna. Utöver att ha
+            grundläggande kompetens i
+            JavaScript-programmering har jag också förvärvat
+            värdefull insikt i agila projektmetoder och
+            närliggande områden. Denna utbildning har gett
+            mig en heltäckande förståelse av
+            webbutvecklingslösningar.
           </p>
-          <a href="https://pontusva.github.io/valorant/#/">Valorant</a>
+          <h3>övrigt</h3>
+          <p>80 högskolepoäng i varierande ämnen</p>
         </section>
-        <section>
-          <h2>The Block Ink</h2>
+        <section id="experience">
+          <h1>Sammanfattning</h1>
+
           <p>
-            This is a site for a tattoo shop built with vue. The site and
-            functionality is still in progress. There is a backend built with
-            node and mongodb.
+            Jag heter Pontus Abrahamsson och är 31 år
+            gammal. Jag kommer från Vänersborg och jag är
+            för närvarande en webbutvecklingsstudent som är
+            på väg att avsluta min andra och sista praktik
+            inför min kommande examen. Jag letar efter
+            möjligheter att fördjupa mina kunskaper och jag
+            är alltid ödmjuk och redo att lära mig samt
+            bidra på bästa sätt.
           </p>
           <p>
-            The backend is supposed to handle
-            <a href="https://github.com/pontusva/auth-for-blockink">booking</a>
-            and
-            <a href="https://github.com/pontusva/theblock-dates"
-              >authentication</a
-            >
-            but is not yet live.
+            När det kommer till mina kompetenser har jag
+            erfarenhet inom ett brett spektrum av områden,
+            inklusive Git & GitHub, JavaScript, Node, Vue,
+            React, GraphQL, SQL, HTML, NoSQL och CSS.
           </p>
-          <a href="https://pontusva.github.io/theblockink/#/">The Block Ink</a>
           <p>
-            note: This website uses a package called troisjs which in built on
-            top of threejs. But for some reason the build version of this
-            project is not showing the troisjs feature
+            Mellan 2022 och 2024 deltog jag i en
+            JavaScriptutvecklarutbildning där jag fördjupade
+            mig i webbprogrammeringsspråket JavaScript och
+            dess tillhörande verktyg. Under utbildningen
+            hade jag även möjligheten att skapa
+            applikationer med en gemensam kodbas som kunde
+            distribueras på både Android- och
+            iOS-plattformarna. Utöver min grundläggande
+            kompetens inom JavaScript-programmering, har jag
+            även förvärvat värdefull insikt inom agila
+            projektmetoder och närliggande områden. Denna
+            utbildning har gett mig en heltäckande
+            förståelse av webbutvecklingslösningar.
+          </p>
+          <p>
+            Förutom detta har jag även samlat 80
+            högskolepoäng inom olika ämnen.
           </p>
         </section>
-      </article>
+      </section>
     </main>
   </body>
 </html>
+
+<!-- kontaktinformation, sammanfattning, utbildning, arbetslivserfarenhet, färdigheter och eventuell annan relevant information. -->
